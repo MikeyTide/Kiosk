@@ -1,5 +1,5 @@
 #!/bin/bash
-site=url/vash.ru
+site=url/site.rusite=url/vash.ru
 # Запустить Firefox на странице сseu.ru в полноэкранном режиме
 firefox $site -kiosk & > /dev/null 2>&1
 
