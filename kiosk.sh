@@ -1,7 +1,7 @@
 #!/bin/bash
-
+site=url/site.ru
 # Запустить Firefox на странице сseu.ru в полноэкранном режиме
-firefox www.sseu.ru -kiosk & > /dev/null 2>&1
+firefox $site -kiosk & > /dev/null 2>&1
 
 # Бесконечный цикл для проверки активности пользователя
 while true; do
